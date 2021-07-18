@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.Nav_Bar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.ListItems {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+  margin: 0;
+}
+
+.search-form {
+  margin-top: 70px;
+  padding: 0;
+}
+
+.portal {
+  position: absolute;
+  top: 24.5%;
+  left: 32.6%;
+  right: 25%;
+  width: 450px;
+  height: 550px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 6px 7px 3px black;
+  opacity: 0.8;
+}
+
+.btn-search {
+  width: 200px;
+  padding: 14px;
+  margin-left: 10px;
+  margin-top: 0px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bolder;
+  vertical-align: top;
+}
+
+li {
+  color: white;
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.search-field {
+  width: 500px;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+.movie-stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.Year, .Rated, .Released, .Runtime, .Genre {
+  font-weight: bold;
+}
+
+
+.image {
+  width: 450px;
+  height: 550px;
+  box-shadow: 5px 6px 7px 2px black;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.check {
+  position: absolute;
+  top: 25%;
+  left: 33%;
+}
+
+
+.check2 {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
